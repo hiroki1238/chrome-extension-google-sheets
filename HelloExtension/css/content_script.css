@@ -1,0 +1,15 @@
+.switch-preview-button { /*ボタンを左上に表示*/
+  padding: 3px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: #bbe2f1;
+  position: fixed;
+  text-align: center;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  top: 5px;
+  left:5px
+  cursor: pointer;
+  z-index:1000;
+}

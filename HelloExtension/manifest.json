@@ -1,0 +1,20 @@
+{
+  "name": "拡張機能の名称",
+  "description": "拡張機能の説明",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches":["*://docs.google.com/**"],
+      "css":[
+        "css/content_script.css"
+      ],
+      "js":[
+        "js/jquery-3.6.0.js",
+        "js/content_script.js"
+      ],
+      "run_at":"document_end",
+      "all_frames":false
+    }
+  ]
+}
